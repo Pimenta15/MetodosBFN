@@ -12,7 +12,7 @@ class FalsaPosicao:
         fa = FalsaPosicao.funcao(a)
         fb = FalsaPosicao.funcao(b)
 
-        xi = b - ((b - a) * fb) / (fb - fa)
+        xi = ((a*fb) -b* fa) / (fb - fa)
         fx = FalsaPosicao.funcao(xi)
 
         print("A:", format_str.format(a))
