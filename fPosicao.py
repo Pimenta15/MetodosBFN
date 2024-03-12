@@ -2,16 +2,7 @@ import math
 class FalsaPosicao:
     precisao = 10**-3
     cont = 0
-
-    @staticmethod
-    def falsa_posicao(a, b):
-        precisao = 10**-3
-    cont = 0
-
-    @staticmethod
-    def main():
-        FalsaPosicao.falsa_posicao(0, math.pi/25)
-
+    
     @staticmethod
     def falsa_posicao(a, b):
         format_str = "{:,.3f}"
