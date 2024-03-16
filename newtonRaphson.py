@@ -1,4 +1,4 @@
-import sympy
+import sympy 
 import math
 
 class newtonRaphson:
