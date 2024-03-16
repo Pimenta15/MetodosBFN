@@ -25,7 +25,7 @@ class FalsaPosicao:
         erro = abs(xi - b) if abs(xi - b) < abs(xi - a) else abs(xi - a)
         print("Erro:", format_str.format(erro))
 
-        if erro <= FalsaPosicao.precisao:
+        if erro < FalsaPosicao.precisao:
             print("A solução foi encontrada")
             return
 
